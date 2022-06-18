@@ -1,0 +1,39 @@
+{
+  "name": "n96-stock-market-p-data",
+  "version": "0.1.0",
+  "private": true,
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "n96": {
+    "isPublished": false,
+    "localPackageBuildPath": ""
+  },
+  "dependencies": {
+    "@types/node": "^14.0.22",
+    "db-migrate": "^0.11.13",
+    "db-migrate-pg": "^1.2.2",
+    "dotenv": "^16.0.1",
+    "n96-logger": "file:./../../../utils/logger",
+    "n96-math": "file:./../../packages/math",
+    "typescript": "^4.6.2"
+  },
+  "scripts": {
+    "start": "node -r dotenv/config ./build/planets/data/src/index.js",
+    "build": "tsc -p tsconfig.json",
+    "lint": "eslint . --ext .ts",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "db:migrate:up": "bin/db-migration-run.sh up",
+    "db:migrate:down": "bin/db-migration-run.sh down",
+    "db:migrate:create": "bin/db-migration-create.sh"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.5.1",
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "@typescript-eslint/parser": "^5.26.0",
+    "eslint": "^7.32.0",
+    "jest": "^28.1.0",
+    "superset": "2.0.1",
+    "ts-jest": "28.0.3"
+  }
+}

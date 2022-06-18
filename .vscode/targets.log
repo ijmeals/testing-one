@@ -1,0 +1,295 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+
+# Make data base, printed on Sat Jun 18 09:35:21 2022
+ 
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+NVM_INC = /Users/ijmeals/.nvm/versions/node/v12.22.12/include/node
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/ijmeals/testing-one
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/8x/k_sn077d0gvdrp9kppfqxb2w0000gn/T/vscode-ipc-d4e23151-6615-4da7-853f-f8dc593dc1d0.sock
+# environment
+VSCODE_CWD = /Users/ijmeals/testing-one
+# environment
+PATH = /Users/ijmeals/.pyenv/shims:/Users/ijmeals/.rbenv/shims:/Users/ijmeals/.rbenv/bin:/Users/ijmeals/.nvm/versions/node/v12.22.12/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+# environment
+NVM_BIN = /Users/ijmeals/.nvm/versions/node/v12.22.12/bin
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.jLO5NTzvAr/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /Users/ijmeals/testing-one
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+PYENV_SHELL = zsh
+# environment
+HOME = /Users/ijmeals
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/ijmeals/Library/Application Support/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LOGNAME = ijmeals
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+NVM_CD_FLAGS = -q
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 3
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = ijmeals
+# makefile
+.DEFAULT_GOAL := help
+# environment
+TERM_SESSION_ID = CB06E78F-837A-4694-A2E5-27E40138ACAA
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# environment
+TERM_PROGRAM = Apple_Terminal
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/8x/k_sn077d0gvdrp9kppfqxb2w0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/ijmeals/Library/Application Support/Code/1.67.2-main.sock
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+TERM_PROGRAM_VERSION = 440
+# environment
+NVM_DIR = /Users/ijmeals/.nvm
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.57796013.57796019.111EBDA2-ADED-4A1B-8828-E078ED37C3BA
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# environment
+RBENV_SHELL = zsh
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_PID = 2919
+# variable set hash-table stats:
+# Load=74/1024=7%, Rehash=0, Collisions=2/100=2%
+
+# Pattern-specific Variable Values
+ 
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777221, inode 62032553): 13 files, no impossibilities.
+
+# 13 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all:
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/10=10%
+#  commands to execute (from `Makefile', line 17):
+	@echo "all"
+	
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 09:34:58
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 21):
+	make nmri
+	npm run build
+	
+
+help:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 2):
+	@printf "Available targets:\n\n"
+	@awk '/^[a-zA-Z\-\_0-9%:\\]+/ { \
+	helpMessage = match(lastLine, /^## (.*)/); \
+	if (helpMessage) { \
+	helpCommand = $$1; \
+	helpMessage = substr(lastLine, RSTART + 3, RLENGTH); \
+	gsub("\\\\", "", helpCommand); \
+	gsub(":+$$", "", helpCommand); \
+	printf "  \x1b[32;01m%-35s\x1b[0m %s\n", helpCommand, helpMessage; \
+	} \
+	} \
+	{ lastLine = $$0 }' $(MAKEFILE_LIST) | sort -u
+	@printf "\n"
+	
+
+nmri:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 26):
+	rm -rf node_modules/*
+	npm i
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+install-eslint:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 31):
+	npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
+	
+
+# files hash-table stats:
+# Load=8/1024=1%, Rehash=0, Collisions=0/22=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Sat Jun 18 09:35:21 2022
+
+ 
